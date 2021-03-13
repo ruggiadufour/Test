@@ -12,6 +12,7 @@ const Create = () => {
     plans: [],
   });
   const initPlan = {
+    id: 0,
     image: "icons/dashboard.svg",
     name: "",
     desc: "",
@@ -32,7 +33,10 @@ const Create = () => {
   function save(e) {
     e.preventDefault();
     if (data.plans.length !== 0) {
-      dispatch({ type: "addGeneralPlan", payload: data });
+      dispatch({
+        type: "addGeneralPlan",
+        payload: { ...data, id: data.title + data.id },
+      });
       history.push("/");
     }
   }
@@ -40,7 +44,10 @@ const Create = () => {
   function addPlan(e) {
     e.preventDefault();
     setAddOneMore(false);
-    setData({ ...data, plans: [...data.plans, plan] });
+    setData({
+      ...data,
+      plans: [...data.plans, { ...plan, id: plan.name + plan.desc }],
+    });
     setPlan(initPlan);
   }
 

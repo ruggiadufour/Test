@@ -152,6 +152,7 @@
   width: 4rem;
   height: 4rem;
   background-color: #0069ff;
+  cursor: pointer;
 }
 
 .navbar__search {
