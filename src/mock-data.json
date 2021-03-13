@@ -1,0 +1,248 @@
+{
+  "general_plans": [
+    {
+      "id": 1,
+      "title": "Starter",
+      "plans": [
+        {
+          "id": 1,
+          "image": "icons/dashboard.svg",
+          "name": "Standard",
+          "desc":"Standard virtual machines with a mix of memory and compute resources. Best for small projects that can handle variable levels of CPU performance, like blogs, web apps and dev/test environments.",
+          "isNew": false,
+          "isComing": false,
+          "costs": [
+            {
+              "id": 1,
+              "value": 5,
+              "cpu": "1GB/1CPU",
+              "disk": "25GB SSD disk",
+              "transfer": "1000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 2,
+              "value": 10,
+              "cpu": "2GB/2CPU",
+              "disk": "50GB SSD disk",
+              "transfer": "2000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 3,
+              "value": 15,
+              "cpu": "3GB/4CPU",
+              "disk": "75GB SSD disk",
+              "transfer": "3000 GB transfer",
+              "isAvailable": false
+            },
+            {
+              "id": 4,
+              "value": 5,
+              "cpu": "1GB/1CPU",
+              "disk": "25GB SSD disk",
+              "transfer": "1000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 5,
+              "value": 10,
+              "cpu": "2GB/2CPU",
+              "disk": "50GB SSD disk",
+              "transfer": "2000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 6,
+              "value": 15,
+              "cpu": "3GB/4CPU",
+              "disk": "75GB SSD disk",
+              "transfer": "3000 GB transfer",
+              "isAvailable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Performance solutions",
+      "plans": [
+        {
+          "id": 2,
+          "image": "icons/dashboard.svg",
+          "name": "General Purpose",
+          "desc": "General Purpose machines...",
+          "isNew": false,
+          "isComing": true,
+          "costs": [
+            {
+              "id": 4,
+              "value": 17,
+              "cpu": "5GB/5CPU",
+              "disk": "100GB SSD disk",
+              "transfer": "5000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 5,
+              "value": 20,
+              "cpu": "8GB/8CPU",
+              "disk": "150GB SSD disk",
+              "transfer": "5000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 6,
+              "value": 25,
+              "cpu": "16GB/16CPU",
+              "disk": "300GB SSD disk",
+              "transfer": "5000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 7,
+              "value": 17,
+              "cpu": "5GB/5CPU",
+              "disk": "100GB SSD disk",
+              "transfer": "5000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 8,
+              "value": 20,
+              "cpu": "8GB/8CPU",
+              "disk": "150GB SSD disk",
+              "transfer": "5000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 9,
+              "value": 25,
+              "cpu": "16GB/16CPU",
+              "disk": "300GB SSD disk",
+              "transfer": "5000 GB transfer",
+              "isAvailable": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "image": "icons/dashboard.svg",
+          "name": "CPU-Optimized",
+          "desc": "CPU-Optimized is a...",
+          "isNew": true,
+          "isComing": false,
+          "costs": [
+            {
+              "id": 7,
+              "value": 27,
+              "cpu": "16GB/8CPU",
+              "disk": "350GB SSD disk",
+              "transfer": "8000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 8,
+              "value": 30,
+              "cpu": "16GB/16CPU",
+              "disk": "400GB SSD disk",
+              "transfer": "8000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 9,
+              "value": 35,
+              "cpu": "20GB/16CPU",
+              "disk": "500GB SSD disk",
+              "transfer": "8000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 10,
+              "value": 27,
+              "cpu": "16GB/8CPU",
+              "disk": "350GB SSD disk",
+              "transfer": "8000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 11,
+              "value": 30,
+              "cpu": "16GB/16CPU",
+              "disk": "400GB SSD disk",
+              "transfer": "8000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 12,
+              "value": 35,
+              "cpu": "20GB/16CPU",
+              "disk": "500GB SSD disk",
+              "transfer": "8000 GB transfer",
+              "isAvailable": true
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "image": "icons/dashboard.svg",
+          "name": "Memory-Optimized",
+          "desc": "Memory-Optimized is ...",
+          "isNew": false,
+          "isComing": false,
+          "costs": [
+            {
+              "id": 10,
+              "value": 5,
+              "cpu": "64GB/32CPU",
+              "disk": "1TB SSD disk",
+              "transfer": "10000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 11,
+              "value": 10,
+              "cpu": "64GB/32CPU",
+              "disk": "1TB SSD disk",
+              "transfer": "10000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 12,
+              "value": 15,
+              "cpu": "64GB/32CPU",
+              "disk": "2TB SSD disk",
+              "transfer": "10000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 13,
+              "value": 5,
+              "cpu": "64GB/32CPU",
+              "disk": "1TB SSD disk",
+              "transfer": "10000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 14,
+              "value": 10,
+              "cpu": "64GB/32CPU",
+              "disk": "1TB SSD disk",
+              "transfer": "10000 GB transfer",
+              "isAvailable": true
+            },
+            {
+              "id": 15,
+              "value": 15,
+              "cpu": "64GB/32CPU",
+              "disk": "2TB SSD disk",
+              "transfer": "10000 GB transfer",
+              "isAvailable": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
